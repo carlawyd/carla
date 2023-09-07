@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+}
+html{
+    box-sizing: border-box;
+    margin-left: 48px;
+    margin-right: 48px;
+}
+.header{
+    align-items: center;
+}
+.header_img{
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family: 'Victor Mono', monospace;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    display: block;
+}
+.container{
+    font-size: 2.5em;
+    border-top: 0.12em solid black;
+}
+.row{
+    display: flex;
+    border-bottom: 0.12em solid black;
+    align-items: center;
+}
+.cell{
+    flex-basis: 45%;
+    padding: 0 2.5%;
+    line-height: 1.25;
+    margin-top: 0.2em;
+}
+.cell.thumbnail{
+    flex-basis: 1.75em;
+    text-align: center;
+}
+.cell.thumbnail img{
+    max-width: 100%;
+    max-inline-size: 50%;
+}
+img{
+    border: 0;
+}
+.cell.title{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-left: 0;
+    font-family: 'Victor Mono', monospace;
+    font-size: 0.7em;
+}
+.sticker{
+    font-family: 'Victor Mono', monospace;
+    font-size: 0.5em;
+    background-color: greenyellow;
+    transform: rotate(-5deg);
+    display: flex;
+    justify-content: center;
+}
+footer{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.socials{
+    height: 20px;
+}
+.socials img{
+    height: 100%;
+}
+p{
+    font-family: 'Victor Mono', monospace;
+}
