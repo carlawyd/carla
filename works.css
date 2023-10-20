@@ -85,3 +85,54 @@ footer{
 p{
     font-family: 'Victor Mono', monospace;
 }
+@media (max-width:600px){
+    html{
+        box-sizing: border-box;
+        margin: 0 24px;
+    }
+    .container{
+        font-size: 2.5em;
+        border-top: 0.10em solid black;
+    }
+    .row{
+        display: flex;
+        border-bottom: 0.10em solid black;
+        align-items: center;
+    }
+    .cell{
+        flex-basis: 95%;
+        padding: 0 2%;
+        line-height: 1;
+        margin-top: 0.15em;
+    }
+    .cell.title{
+        font-size: 5vw;
+    }
+    .cell.thumbnail{
+        flex-basis: 1.75em;
+        text-align: right;
+    }
+    .sticker{
+        font-family: 'Victor Mono', monospace;
+        font-size: 0.4em;
+        background-color: greenyellow;
+        transform: rotate(-5deg);
+        text-align: center;
+    }
+    footer{
+        margin-top: 50%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .socials{
+        height: 20px;
+    }
+    .socials img{
+        height: 100%;
+    }
+    footer p{
+        font-size: 0.7em;
+    }
+}
