@@ -72,3 +72,84 @@ img{
     width: 200px;
     height: auto;
 }
+@media (max-width:600px) {
+    *{
+        padding: 0;
+        margin: 0;
+        font-size: 100%;
+    }
+    html{
+        box-sizing: border-box;
+    }
+    .close{
+        display: flex;
+        justify-content: right;
+        margin: 48px 48px 0;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .text{
+        margin: 20px 28px;
+    }
+    h1{
+        font-family: 'Victor Mono', monospace;
+        font-weight: 600;
+        font-size: 3em;
+        margin-bottom: 0.5em;
+        line-height: 1.2em;
+    }
+    h2{
+        font-family: 'Victor Mono', monospace;
+        margin-bottom: 2em;
+        font-weight: 300;
+    }
+    p{
+        margin-bottom: 1em;
+        padding-right: 0;
+        font-family: 'Roboto', sans-serif;
+    }
+    mark{
+        background-color: greenyellow;
+    }
+    italic{
+        font-style: italic;
+    }
+    .gallery{
+        margin: 2em 0;
+    }
+    .containers{
+        display: flex;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .container{
+        min-width: 300px;
+        max-width: 900px;
+        height: 200px;
+    }
+    .container img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .imgbox{
+        width:100%;
+        margin: 2em 0;
+    }
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .trio{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 2em 0;
+    }
+    .img-redes{
+        width: 200px;
+        height: auto;
+    }
+}
