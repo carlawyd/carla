@@ -42,3 +42,51 @@ p{
 .img{
     margin: 20px;
 }
+@media (max-width:600px) {
+    *{
+        padding: 0;
+        margin: 0;
+        font-size: 100%;
+    }
+    html{
+        box-sizing: border-box;
+    }
+    .close{
+        display: flex;
+        justify-content: right;
+        margin: 48px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .text{
+        margin: 28px;
+    }
+    h1{
+        font-family: 'Victor Mono', monospace;
+        font-weight: 600;
+        font-size: 3em;
+        margin-bottom: 0.5em;
+        line-height: 1.2em;
+    }
+    h2{
+        font-family: 'Victor Mono', monospace;
+        margin-bottom: 1.8em;
+        font-weight: 300;
+    }
+    p{
+        margin-bottom: 1em;
+        padding-right: 0;
+        font-family: 'Roboto', sans-serif;
+    }
+    .imgs{
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        margin: 0;
+    }
+    .imgs img{
+        width: 100%;
+    }
+}
