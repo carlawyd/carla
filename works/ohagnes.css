@@ -94,8 +94,8 @@ img{
     }
     .trio{
         display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+        flex-direction: column;
+        justify-content: left;
         padding-left: 0;
         margin:2em 0;
     }
